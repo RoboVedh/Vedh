@@ -7,22 +7,22 @@ aio = Client('Robo_Vedh','aio_YcGC58BdtKxDSEOfdKN7C7dTmqqG')
 def vedh1(bot,update):
   chat_id = bot.message.chat_id
   bot.message.reply_text('light turned on')
-  aio.send('telebot',1)
+  aio.send('vedh',1)
  
 def vedh2(bot,update):
   chat_id = bot.message.chat_id
   bot.message.reply_text('light turned off')
-  aio.send('telebot',0)
+  aio.send('vedh',0)
  
 def vedh3(bot,update):
   chat_id = bot.message.chat_id
   bot.message.reply_text('Fan turned on')
-  aio.send('telebot',4)
+  aio.send('vedh',4)
  
 def vedh4(bot,update):
   chat_id = bot.message.chat_id
   bot.message.reply_text('Fan turned off')
-  aio.send('telebot',2)
+  aio.send('vedh',2)
  
  
 def main(bot,update):
